@@ -3629,7 +3629,7 @@ var rules = [
   "||youtube-nocookie.com",
   ".googlevideo.com",
   ".googleapis.com",
-  "||googleapis.com",
+ "||atomx.us",
   ".youtubecn.com",
   "youversion.com",
   "||youversion.com",
