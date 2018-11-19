@@ -5312,7 +5312,7 @@ IP-CIDR,78.140.131.214/32",
     ];
 
 for (var i = 0; i < rejectRules.length; i++) {
-  rejectMatcher.add(Filter.fromText(rules[i]));
+  rejectMatcher.add(Filter.fromText(rejectRules[i]));
 }
 
 
