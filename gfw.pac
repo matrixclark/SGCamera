@@ -94,7 +94,7 @@ var rules = [
     
 
     "|http://sns.video.qq.com/tunnel/fcgi-bin/tunnel",
-    "||.qq.com",
+    "||qq.com",
     "||.video.qq.com/fcgi-bin/",
     "|http://v5.pc.duomi.com/single-ajaxsingle-isban",
     "|http://info.zb.qq.com/?",
