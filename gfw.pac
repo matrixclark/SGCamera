@@ -91,10 +91,20 @@ var rules = [
     "|http://spark.api.xiami.com/api?method=Songs.detail",
    
     "|http://iplocation.geo.qiyi.com/cityjson",
+    
+
     "|http://sns.video.qq.com/tunnel/fcgi-bin/tunnel",
-    "||video.qq.com",
+    "||.qq.com",
     "||.video.qq.com/fcgi-bin/",
     "|http://v5.pc.duomi.com/single-ajaxsingle-isban",
+    "|http://info.zb.qq.com/?",
+    "|https://info.zb.qq.com/",
+    "|http://qzs.qq.com/tencentvideo_v1/",
+    "|https://qzs.qq.com/",
+    "|http://vd.l.qq.com/",
+    "|https://vd.l.qq.com/",
+    "|http://vi.l.qq.com/",
+    "|https://vi.l.qq.com/",
 
 
     "|https://openapi.youku.com/",  // see issue #118
@@ -861,7 +871,7 @@ matchesAny: function(location, docDomain)
 };
 var defaultMatcher = new CombinedMatcher();
 
-var direct = 'DIRECT;';
+var direct = "DIRECT;";
 
 for (var i = 0; i < rules.length; i++) {
   defaultMatcher.add(Filter.fromText(rules[i]));
