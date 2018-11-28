@@ -91,8 +91,6 @@ var rules = [
     "|http://spark.api.xiami.com/api?method=Songs.detail",
    
     "|http://iplocation.geo.qiyi.com/cityjson",
-    
-
     "|http://sns.video.qq.com/tunnel/fcgi-bin/tunnel",
     "||qq.com",
     "||.video.qq.com/fcgi-bin/",
